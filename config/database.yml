@@ -1,0 +1,11 @@
+default: &default
+  adapter: postgresql
+
+development:
+  <<: *default
+  database: jotspot_development
+
+test:
+  <<: *default
+  database: jotspot_test
+
