@@ -15,7 +15,7 @@
     </div>
     <div class='sign-in-jazz'>
       <% if user_signed_in? %>
-        Logged in as <strong><%= current_user.email %></strong>.
+        Logged in as <strong><%= link_to "#{current_user.email}", user_path(current_user) %></strong>.
         <%= link_to 'Edit Login', edit_user_registration_path %> |
         <%= link_to "Logout", destroy_user_session_path, method: :delete %>
       <% else %>
