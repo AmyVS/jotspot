@@ -42,5 +42,6 @@ body {
 }
 
 #copyright {
-  margin: 1.75% 0 0 1%;
+  margin: 1.75% 1.75% 1% 1%;
+  float: right;
 }
