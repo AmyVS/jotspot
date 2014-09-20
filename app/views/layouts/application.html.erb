@@ -5,11 +5,13 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Kranky' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 <body class='container-fluid'>
-  <div class='navbar navbar-default navbar-fixed-top'>
+  <div class='navbar navbar-default navbar-fixed-top' id="header">
     <div class='navbar-header'>
-      <a class='navbar-brand'>Jotspot</a>
+      <a class='navbar-brand' id="site-name">Jotspot</a>
     </div>
     <div class='sign-in-jazz'>
       <% if user_signed_in? %>
@@ -29,7 +31,7 @@
 <p class="alert"><%= alert %></p>
 
 <div class="container-fluid">
-  <div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="navbar navbar-default navbar-fixed-bottom" id="footer">
     <p id="copyright">&copy; 2014 Amy Vaillancourt-Sals</p>
   </div>
 </div>
