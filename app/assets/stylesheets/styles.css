@@ -1,0 +1,26 @@
+.sign-in-jazz {
+  float: right;
+  padding: 1.75%;
+}
+
+.navbar {
+  background-color: #B6C3E0;
+}
+
+body {
+  padding: 7%;
+  background-image: url('paper.png');
+  background-repeat: repeat-x;
+}
+
+.notice {
+  margin:0;
+}
+
+.alert {
+  margin:0;
+}
+
+#copyright {
+  margin: 1.75% 0 0 1%;
+}
