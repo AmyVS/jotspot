@@ -1,8 +1,14 @@
 <div id="post-form">
   <%= simple_form_for @post, remote: true do |f| %>
+  <div class="form-group">
     <%= f.label :title %>
     <%= f.text_field :title %>
+  </div>
+  <div class="form-group">
     <%= f.label :content %>
     <%= f.text_area :content %>
+  </div>
   <%= f.submit(class: "btn btn-default") %>
+  <% end %>
 </div>
+

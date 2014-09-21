@@ -4,4 +4,4 @@
   <%= post.title %>
 <% end %>
 
-<%= link_to "New Post", new_post_path %>
+<%= link_to "New Post", new_post_path, id: "new_post", class: "btn btn-default", remote: true %>
