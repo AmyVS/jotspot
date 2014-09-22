@@ -1,6 +1,10 @@
 <li id='post_line_<%= post.id %>'>
   <span class="strong-title"><%= post.title %></span>
   <%= link_to "edit", edit_post_path(post), class: "btn btn-primary btn-xs", id: "edit_post_#{post.id}", remote: true %>
+  <%= link_to "remove", post_path(post),
+                            :data => {:confirm => "Are you sure? This action can't be undone.",
+                            :method => "delete"},
+                            class: "btn btn-warning btn-xs" %>
   <br>
   <%= post.content %>
 </li>
