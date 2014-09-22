@@ -10,7 +10,7 @@ Clone this repo in your terminal:
 
 $ git clone https://github.com/AmyVS/jotspot.git
 
-If you haven't already, install [postgres](http://www.postgresql.org/download/):
+If you haven't already, be sure to install [postgres](http://www.postgresql.org/download/):
 
 $ postgres
 
