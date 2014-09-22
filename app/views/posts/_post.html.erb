@@ -1,5 +1,6 @@
 <li id='post_line_<%= post.id %>'>
   <span class="strong-title"><%= post.title %></span>
+  <%= link_to "edit", edit_post_path(post), class: "btn btn-primary btn-xs", id: "edit_post_#{post.id}", remote: true %>
   <br>
   <%= post.content %>
 </li>
