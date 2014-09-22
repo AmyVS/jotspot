@@ -3,7 +3,9 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
-      <%= post.title %><br>
+      <span class="strong-title"><%= post.title %></span>
+      <span class="by-style"> by <%= post.user.email %></span>
+      <br>
       <%= post.content %>
     </li>
   <% end %>

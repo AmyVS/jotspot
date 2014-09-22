@@ -39,6 +39,14 @@ body {
   margin:0;
 }
 
+.strong-title {
+  font-weight: bold;
+}
+
+.by-style {
+  font-style: italic;
+}
+
 #footer {
   background-color: #CAD2E3;
   font-family: 'Kranky', cursive;
