@@ -1,3 +1,5 @@
+<%= render 'layouts/errors', :object => @post %>
+
 <div id="post-form">
   <%= simple_form_for @post, remote: true do |f| %>
   <div class="form-group">
