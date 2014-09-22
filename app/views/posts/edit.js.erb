@@ -1,1 +1,5 @@
+$('#post_title_<%= @post.id %>').hide();
+$('#remove_post_<%= @post.id %>').hide();
+$('#post_content_<%= @post.id %>').hide();
 $('#edit_post_<%= @post.id %>').hide().after('<%= j render("form") %>');
+
