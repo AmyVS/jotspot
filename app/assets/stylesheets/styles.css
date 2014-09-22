@@ -27,7 +27,7 @@ body {
   padding: 7%;
   background-image: url('paper.png');
   background-repeat: repeat-x;
-  font-family: times;
+  font-family: times !important;
 }
 
 

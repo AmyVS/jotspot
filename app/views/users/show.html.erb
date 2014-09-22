@@ -1,7 +1,9 @@
 <h2 class="page-headline">Profile for <%= @user.email %></h2>
 
-<% @user.posts.each do |post| %>
-  <%= post.title %>
-<% end %>
+  <h3>Your Posts:</h3>
+  <ul>
+    <%= render @user.posts %>
+  </ul>
+  <br>
 
 <%= link_to "New Post", new_post_path, id: "new_post", class: "btn btn-default", remote: true %>
