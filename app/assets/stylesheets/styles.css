@@ -47,6 +47,10 @@ body {
   font-style: italic;
 }
 
+li  {
+  margin: 1%;
+}
+
 #footer {
   background-color: #CAD2E3;
   font-family: 'Kranky', cursive;
