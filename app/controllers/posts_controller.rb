@@ -7,6 +7,10 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
+    respond_to do |format|
+      format.html { redirect_to user_path(current_user) }
+      format.js
+    end
   end
 
   def create

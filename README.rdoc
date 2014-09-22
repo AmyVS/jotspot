@@ -1,28 +1,34 @@
-== README
+#Jotspot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project using Ruby on Rails, HTML5, CSS3, AJAX and Devise authentication. It's a simple blog app that allows users to create posts, look at posts by others, and edit and remove their own posts.
 
-Things you may want to cover:
+Check out Jotspot on Heroku:
+http://jotspot.herokuapp.com/
 
-* Ruby version
+##Installation
+Clone this repo in your terminal:
 
-* System dependencies
+$ git clone https://github.com/AmyVS/jotspot.git
 
-* Configuration
+If you haven't already, install [postgres](http://www.postgresql.org/download/):
 
-* Database creation
+$ postgres
 
-* Database initialization
+Run bundle to install all the gems associated with the repo:
 
-* How to run the test suite
+$ bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+Get your databases all set up:
 
-* Deployment instructions
+$ rake db:create
+$ rake db:migrate
 
-* ...
+Start your local rails server:
 
+$ rails s
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Open your favorite brower to localhost:3000 and you should be good to go!
+---
+**MIT License Copyright (c) 2014 Amy Vaillancourt-Sals**
+
+---
