@@ -38,6 +38,8 @@ $ rails s
 ```
 
 Open your favorite brower to localhost:3000 and you should be good to go!
+
+
 ---
 **MIT License Copyright (c) 2014 Amy Vaillancourt-Sals**
 
