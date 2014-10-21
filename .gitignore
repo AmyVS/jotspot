@@ -15,4 +15,5 @@
 /log/*.log
 /tmp
 
-*.DS_store
+# Can ignore specific files
+.DS_store
